@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema MTC® | mejoratucanal.com</title>
     
+    <link rel="icon" type="image/png" href="logo.png">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" href="logo.png" as="image" fetchpriority="high">
     
     <meta name="description" content="Sistema MTC® — Arquitectura SEO para algoritmos. Estructura redes, páginas y nodos semánticos para maximizar indexación, autoridad, visibilidad y vigencia orgánica.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://mejoratucanal.github.io/">
     <link rel="indexnow" href="https://www.bing.com/indexnow">
     <meta name="yep-index" content="index">
@@ -17,11 +20,8 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mejoratucanal.github.io/">
     <meta property="og:title" content="Sistema MTC® | Arquitectura SEO para algoritmos">
-    <meta property="og:description" content="Estructura redes, páginas y nodos semánticos para maximizar indexación y autoridad orgánica.">
+    <meta property="og:description" content="Estructura redes, páginas y nodos semánticos para maximizar la autoridad orgánica.">
     <meta property="og:image" content="https://mejoratucanal.github.io/logo.png">
-
-    <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="googlebot" content="index, follow">
 
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 
@@ -29,37 +29,28 @@
         :root { --bg: #080c10; --accent: #00c2ff; --text: #e8edf2; --muted: #7a8fa4; --card: #0e1419; }
         * { box-sizing: border-box; }
         body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; margin: 0; line-height: 1.6; overflow-x: hidden; }
-        
-        /* GPU ACCELERATION PARA SCROLL FLUIDO */
         .bg-grid { position: fixed; inset: 0; pointer-events: none; z-index: 0; transform: translateZ(0);
             background-image: linear-gradient(rgba(0,194,255,0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(0,194,255,0.02) 1px, transparent 1px);
             background-size: 60px 60px; }
-
         .wrap { max-width: 860px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
-        
         header { padding: 40px 0; display: flex; align-items: center; justify-content: space-between; }
         .brand { display: flex; align-items: center; gap: 12px; }
         .logo-img { width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid var(--accent); }
         .ia-tag { font-size: 10px; border: 1px solid var(--accent); padding: 4px 10px; border-radius: 20px; color: var(--accent); font-weight: bold; }
-
         .hero { padding: 40px 0; }
         .hero h1 { font-family: 'Syne', sans-serif; font-size: clamp(32px, 5vw, 52px); line-height: 1.1; margin-bottom: 24px; color: #fff; }
         .hero h1 span { color: var(--accent); }
         .hero p { font-size: 18px; color: var(--text); border-left: 3px solid var(--accent); padding-left: 20px; }
-
         .section-box { background: var(--card); padding: 30px; border-radius: 12px; margin-bottom: 24px; border: 1px solid #1a2230; }
         .section-box h2 { font-family: 'Syne', sans-serif; font-size: 20px; margin-top: 0; color: var(--accent); }
-        
         .nodos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin: 30px 0; }
         .red-card { background: #121920; border: 1px solid #1c2630; padding: 16px; border-radius: 10px; display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; transition: 0.3s; }
         .red-card:hover { border-color: var(--accent); transform: translateY(-3px); }
         .dot { width: 8px; height: 8px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 8px var(--accent); }
         .red-name { font-weight: 700; color: #fff; display: block; }
         .red-handle { font-size: 12px; color: var(--muted); }
-
         .pronto { background: linear-gradient(90deg, #0e1419, #162029); padding: 25px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; margin-top: 40px; }
         .pronto-tag { background: var(--accent); color: #000; padding: 4px 12px; border-radius: 6px; font-weight: bold; font-size: 12px; text-transform: uppercase; }
-
         .closing { text-align: center; padding: 60px 0; font-size: 20px; }
         footer { border-top: 1px solid #1c2630; padding: 40px 0; font-size: 13px; color: var(--muted); display: flex; justify-content: space-between; }
         footer a { color: var(--muted); text-decoration: none; }
@@ -102,7 +93,7 @@
                 <img src="logo.png" alt="MTC" class="logo-img" width="44" height="44" fetchpriority="high">
                 <div>
                     <div style="font-family:'Syne'; font-weight:800; font-size:16px;">Sistema MTC®</div>
-                    <div style="font-size:11px; color:var(--muted);">mejoratucanal.com</div>
+                    <a href="https://www.mejoratucanal.com" target="_blank" style="font-size:11px; color:var(--muted); text-decoration:none; display:block;">mejoratucanal.com</a>
                 </div>
             </div>
             <div class="ia-tag">IA-READY</div>
