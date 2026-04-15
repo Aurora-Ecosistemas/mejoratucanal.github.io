@@ -6,6 +6,7 @@
     <title>Sistema MTC® | mejoratucanal.com</title>
     
     <link rel="icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" href="logo.png">
     <link rel="indexnow" href="https://www.bing.com/indexnow">
     <meta name="yep-index" content="index">
     <meta name="robots" content="index, follow, max-image-preview:large">
@@ -17,13 +18,6 @@
 
     <meta name="description" content="Sistema MTC® — Arquitectura SEO para algoritmos. Estructura redes, páginas y nodos semánticos para maximizar indexación, autoridad, visibilidad y vigencia orgánica.">
     <meta name="keywords" content="SEO redes sociales, arquitectura SEO, ecosistema digital, autoridad digital, SEO YouTube, SEO Instagram, SEO TikTok, SEO LinkedIn, automatización redes sociales, sistema MTC, mejoratucanal">
-    <meta name="author" content="Sistema MTC®">
-
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mejoratucanal.github.io/">
-    <meta property="og:title" content="Sistema MTC® | Arquitectura SEO para Redes Sociales">
-    <meta property="og:description" content="Arquitectura SEO para algoritmos. Estructura redes, páginas y nodos semánticos para maximizar indexación, autoridad, visibilidad y vigencia orgánica.">
-    <meta property="og:image" content="https://mejoratucanal.github.io/logo.png">
 
     <script type="application/ld+json">
     {
@@ -47,7 +41,7 @@
           "name": "Sistema MTC®",
           "speakable": {
             "@type": "SpeakableSpecification",
-            "cssSelector": [".hero-def", ".about p", ".closing"]
+            "cssSelector": [".hero-def", ".about p"]
           }
         }
       ]
@@ -65,7 +59,6 @@
             background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; 
             line-height: 1.6; overflow-x: hidden; 
         }
-        /* 5. GPU ACCELERATION */
         body::before {
             content: ''; position: fixed; inset: 0; transform: translateZ(0);
             background-image: linear-gradient(rgba(0,194,255,0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(0,194,255,0.02) 1px, transparent 1px);
@@ -73,14 +66,15 @@
         }
         .wrap { position: relative; z-index: 1; max-width: 860px; margin: 0 auto; padding: 0 24px; }
         
-        /* HEADER CON LINK FUNCIONAL */
-        header { padding: 40px 0; display: flex; align-items: center; justify-content: space-between; position: relative; z-index: 10; }
+        header { padding: 40px 0; display: flex; align-items: center; justify-content: space-between; position: relative; z-index: 100; }
         .brand { display: flex; align-items: center; gap: 12px; }
         .logo-img { width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid var(--accent); }
         .logo-txt { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 16px; color: #fff; }
-        .logo-link { font-size: 11px; color: var(--muted); text-decoration: none; display: block; position: relative; z-index: 20; }
+        .logo-link { font-size: 11px; color: var(--muted); text-decoration: none; display: block; position: relative; z-index: 110; cursor: pointer; }
         .logo-link:hover { color: var(--accent); }
-        .badge { font-size: 10px; border: 1px solid var(--accent); padding: 4px 12px; border-radius: 20px; color: var(--accent); font-weight: bold; }
+        
+        /* ETIQUETA IA-READY RESTAURADA */
+        .ia-ready { font-size: 10px; border: 1px solid var(--accent); padding: 4px 12px; border-radius: 20px; color: var(--accent); font-weight: bold; letter-spacing: 1px; }
 
         .hero { padding: 80px 0 60px; text-align: center; }
         .hero h1 { font-family: 'Syne', sans-serif; font-size: clamp(34px, 5vw, 56px); line-height: 1.1; margin-bottom: 24px; color: #fff; }
@@ -96,11 +90,13 @@
         .about h2 { font-family: 'Syne', sans-serif; margin-bottom: 20px; color: #fff; }
 
         .nodos { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-top: 40px; }
-        .nodo { background: var(--surface); padding: 20px; display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+        .nodo { background: var(--surface); padding: 20px; display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; transition: 0.3s; }
         .dot { width: 7px; height: 7px; background: var(--accent); border-radius: 50%; }
-        .nodo:hover { background: var(--bg); }
+        .nodo:hover { background: #151c24; transform: translateY(-2px); }
 
         .pronto { border: 1px solid var(--border); background: var(--surface); padding: 30px; border-radius: 12px; margin-top: 40px; display: flex; justify-content: space-between; align-items: center; }
+        .pronto-tag { background: var(--accent); color: #000; padding: 4px 12px; border-radius: 6px; font-weight: bold; font-size: 12px; }
+        
         .closing { text-align: center; padding: 60px 0; font-size: 20px; }
         footer { border-top: 1px solid var(--border); padding: 30px 0; display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); }
         
@@ -117,7 +113,7 @@
                     <a href="https://www.mejoratucanal.com" class="logo-link" target="_blank">mejoratucanal.com</a>
                 </div>
             </div>
-            <div class="badge">EN CONSTRUCCIÓN</div>
+            <div class="ia-ready">IA-READY</div>
         </header>
 
         <main>
@@ -151,9 +147,9 @@
 
             <div class="about">
                 <h3>04. La vigencia algorítmica se sostiene con arquitectura.</h3>
-                <p style="color:var(--muted);">MTC® mantiene señales claras, estables y rastreables para que los algoritmos sigan indexando tu contenido, mostrándolo en búsquedas y sugeridos, y no lo declaren obsoleto.</p>
+                <p style="color:var(--muted); margin-top:10px;">MTC® mantiene señales claras, estables y rastreables para que los algoritmos sigan indexando tu contenido, mostrándolo en búsquedas y sugeridos, y no lo declaren obsoleto.</p>
                 <h3 style="margin-top:20px;">05. El crecimiento orgánico es técnico.</h3>
-                <p style="color:var(--muted);">MTC® diseña la estructura que los algoritmos amplifican sin necesidad de publicidad paga.</p>
+                <p style="color:var(--muted); margin-top:10px;">MTC® diseña la estructura que los algoritmos amplifican sin necesidad de publicidad paga.</p>
             </div>
 
             <div class="nodos">
@@ -169,7 +165,7 @@
                     <h3>Manuales, GPTs y recursos — próximamente</h3>
                     <p style="font-size:13px; color:var(--muted);">Sistema MTC® · mejoratucanal.com · Todos los productos son de pago.</p>
                 </div>
-                <span class="badge" style="background:var(--accent); color:#000;">MUY PRONTO</span>
+                <span class="pronto-tag">Muy pronto</span>
             </div>
 
             <div class="closing">
@@ -180,8 +176,8 @@
         <footer>
             <p>© 2026 Sistema MTC® · Todos los derechos reservados</p>
             <div>
-                <a href="https://www.mejoratucanal.com" target="_blank" style="color:var(--muted);">mejoratucanal.com</a>
-                <a href="/llms.txt" style="margin-left:20px; color:var(--muted);">llms.txt</a>
+                <a href="https://www.mejoratucanal.com" target="_blank" style="color:var(--muted); text-decoration:none;">mejoratucanal.com</a>
+                <a href="/llms.txt" style="margin-left:20px; color:var(--muted); text-decoration:none;">llms.txt</a>
             </div>
         </footer>
     </div>
