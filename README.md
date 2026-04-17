@@ -2,9 +2,12 @@
 
 # Sistema MTC® — Mejora Tu Canal
 
-**Tus redes sociales como ecosistema de valor.**
+**Sistema MTC® convierte conocimiento en infraestructura digital que escala.**
 
-Manuales digitales · SEO · IA · Automatización
+Automatizamos conocimiento.  
+Empaquetamos sistemas.  
+Creamos activos listos para vender o publicar.  
+Damos acceso a productos diseñados para escalar.
 
 ---
 
@@ -14,19 +17,37 @@ Sistema MTC® — Mejora Tu Canal es arquitectura SEO profesional para algoritmo
 
 Estructura perfiles digitales, páginas web y nodos semánticos para maximizar indexación orgánica, autoridad digital y visibilidad algorítmica en YouTube, Instagram, TikTok, Pinterest y X — sin publicidad paga.
 
-> No es marketing en redes sociales. Es arquitectura SEO.
+**No es marketing en redes sociales. Es arquitectura SEO.**
 
 ---
 
-## Productos
+## Qué incluye
 
-- **Manuales SEO por red social**
-- **Manuales SEO para páginas web**
-- **Manuales de indexación profesional**
-- **Manuales de marketplace en redes sociales**
-- **GPTs**
-- **Agentes IA**
-- **Automatizaciones**
+- Manuales SEO por red social
+- Manuales SEO para páginas web
+- Manuales de indexación profesional
+- Manuales de marketplace en redes sociales
+- GPTs personalizados
+- Agentes IA
+- Automatizaciones
+
+Todos los manuales disponibles en formato **PDF, ODF e IA-READY**.
+
+---
+
+## Para quién es
+
+Creadores, agencias y profesionales que quieren construir un ecosistema digital con activos productizables, escalables y diseñados para autoridad orgánica.
+
+---
+
+## Ecosistema
+
+- YouTube
+- Instagram
+- TikTok
+- X
+- Pinterest
 
 ---
 
@@ -40,9 +61,11 @@ Estructura perfiles digitales, páginas web y nodos semánticos para maximizar i
 
 ---
 
+## Links
+
 - 🌐 [mejoratucanal.com](https://www.mejoratucanal.com)
 - 📄 [mejoratucanal.github.io](https://mejoratucanal.github.io)
 
 ---
 
-*Desarrollado por **Aurora Market Lab***
+*Desarrollado por Aurora Market Lab*
